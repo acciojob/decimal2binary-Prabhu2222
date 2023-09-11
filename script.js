@@ -3,8 +3,8 @@ function decimalToBinary(num) {
 	let arr=[];
 	while(num>0){
 		let rem=num%2;
-		let quo=Math.round(num/2);
-    console.log(quo,rem);
+		let quo=Math.floor(num/2);
+   
     
 		arr.unshift(rem);
 		num=quo;
