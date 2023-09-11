@@ -12,7 +12,7 @@ function decimalToBinary(num) {
   // console.log(arr);
 	let strnum=arr.join("");
 	let number=Number(strnum);
-	return number;
+	return strnum;
   
 }
 
